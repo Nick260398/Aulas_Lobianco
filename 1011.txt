@@ -1,0 +1,11 @@
+#include <stdio.h> 
+ 
+int main() {
+
+double RAIO, X;
+scanf("%lf", &RAIO);
+X = 4/3.0*3.14159*RAIO*RAIO*RAIO;
+printf("VOLUME = %.3lf\n",X);
+ 
+    return 0;
+}
